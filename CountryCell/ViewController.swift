@@ -18,11 +18,11 @@ class ViewController: UIViewController {
         
         let design:UICollectionViewFlowLayout = UICollectionViewFlowLayout()
         
-        let genislik = self.collectionView.frame.size.width
+        let extent = self.collectionView.frame.size.width
         
         design.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         
-        design.itemSize = CGSize(width: (genislik-30)/3, height: (genislik-30)/3)
+        design.itemSize = CGSize(width: (extent-30)/3, height: (extent-30)/3)
         
         design.minimumInteritemSpacing = 5
         design.minimumLineSpacing = 5
